@@ -12,7 +12,7 @@ class AppConstants {
   static const bool useReactWebsite = false;
   static const String googleServerClientId = '823485232405-24pgeg34tfjpo7u7af62actkiu0d6isk.apps.googleusercontent.com';
 
-  static const String baseUrl = 'https://myanfoodmm.com';
+  static const String baseUrl = 'https://yangonbooking.com';
   static const String categoryUri = '/api/v1/categories';
   static const String bannerUri = '/api/v1/banners';
   static const String restaurantProductUri = '/api/v1/products/latest';
