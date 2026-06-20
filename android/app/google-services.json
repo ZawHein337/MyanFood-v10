@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:823485232405:android:2b89915516d02dcec5651c",
         "android_client_info": {
-          "package_name": "com.myanfood.mm.mm"
+          "package_name": "com.myanfood.mm"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "823485232405-134bqrfoee8c4f2vkksksjrh7672gn1v.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.myanfood.mm.mm",
+            "package_name": "com.myanfood.mm",
             "certificate_hash": "a64f8de20a353bc94b9ae389e9e9f6cce3cd635b"
           }
         },
@@ -47,10 +47,10 @@
               "client_type": 3
             },
             {
-              "client_id": "823485232405-9g0ngnen6isd74me49qqncdriqlm7ckr.apps.googleusercontent.com",
+              "client_id": "823485232405-96aaj4el0r6a3fdb8udgfnnj7utom5up.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.myanfood.mm"
+                "bundle_id": "com.myanfood.customerapp"
               }
             }
           ]
@@ -66,6 +66,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "823485232405-9v46lsork5th2os7m0613v3qf95nnu0r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myanfood.partner",
+            "certificate_hash": "d7042f8179818dbed24f850241cb816f1bc8ba79"
+          }
+        },
+        {
+          "client_id": "823485232405-e8042u91fpfira0uap19qgds4soudrdr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myanfood.partner",
+            "certificate_hash": "a64f8de20a353bc94b9ae389e9e9f6cce3cd635b"
+          }
+        },
+        {
           "client_id": "823485232405-24pgeg34tfjpo7u7af62actkiu0d6isk.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -83,10 +99,10 @@
               "client_type": 3
             },
             {
-              "client_id": "823485232405-9g0ngnen6isd74me49qqncdriqlm7ckr.apps.googleusercontent.com",
+              "client_id": "823485232405-96aaj4el0r6a3fdb8udgfnnj7utom5up.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.myanfood.mm"
+                "bundle_id": "com.myanfood.customerapp"
               }
             }
           ]
@@ -102,6 +118,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "823485232405-avq5fqp2iuhctkbfr65j0bb2avrvll12.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myanfood.rider",
+            "certificate_hash": "a64f8de20a353bc94b9ae389e9e9f6cce3cd635b"
+          }
+        },
+        {
+          "client_id": "823485232405-ketdk6um91gjgaibube8mil0v7sr7erv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myanfood.rider",
+            "certificate_hash": "d7042f8179818dbed24f850241cb816f1bc8ba79"
+          }
+        },
+        {
           "client_id": "823485232405-24pgeg34tfjpo7u7af62actkiu0d6isk.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -119,10 +151,10 @@
               "client_type": 3
             },
             {
-              "client_id": "823485232405-9g0ngnen6isd74me49qqncdriqlm7ckr.apps.googleusercontent.com",
+              "client_id": "823485232405-96aaj4el0r6a3fdb8udgfnnj7utom5up.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.myanfood.mm"
+                "bundle_id": "com.myanfood.customerapp"
               }
             }
           ]
