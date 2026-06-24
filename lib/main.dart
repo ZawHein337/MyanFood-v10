@@ -73,52 +73,6 @@ Future<void> main() async {
   Map<String, Map<String, String>> languages = await di.init();
 
 
-try {
-
-if(GetPlatform.isAndroid) {
-
-await Firebase.initializeApp(
-
-options: const FirebaseOptions(
-
-apiKey: 'AIzaSyB31049aqb6b2YrMUDY1pM35KT-rkg4xFo',
-
-Typo: In word 'MUDY'.
-
-appId: '1:823485232405:web:bd4c4a55cbf1f97cc5651c',
-
-messagingSenderId: '823485232405',
-
-projectId: 'myanfood-337', Typo: In word 'myanfood".
-
-),
-
-);
-
-} else {
-
-}
-
-await Firebase.initializeApp();
-
-} catch (e) {
-
-if (e.toString().contains('duplicate-app')) {
-
-// Firebase already initialized
-
-} else {
-
-rethrow;
-
-}
-
-}
-
-
-
-
-
   NotificationBodyModel? body;
   try {
     if (GetPlatform.isMobile) {
