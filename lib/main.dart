@@ -50,7 +50,7 @@ Future<void> main() async {
 
   if(GetPlatform.isWeb) {
     await Firebase.initializeApp(options: const FirebaseOptions(
-      apiKey: "AIzaSyB31049aqb6b2YrMUDY1pM35KT-rkg4xFo",
+      apiKey: "AIzaSyBYUv8qBxOQlJmrlk-foMU-d37VrbALJO4",
       authDomain: "myanfood-337.firebaseapp.com",
       projectId: "myanfood-337",
       storageBucket: "myanfood-337.firebasestorage.app",
@@ -60,7 +60,7 @@ Future<void> main() async {
   }else if(GetPlatform.isAndroid) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-        apiKey: 'AIzaSyBYUv8qBx0Q1Jmr1k-foMU-d37VrbALJ04',
+        apiKey: 'AIzaSyBYUv8qBxOQlJmrlk-foMU-d37VrbALJO4',
         appId: '1:823485232405:android:2b89915516d02dcec5651c',
         messagingSenderId: '823485232405',
         projectId: 'myanfood-337',
