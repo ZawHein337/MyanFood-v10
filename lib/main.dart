@@ -50,20 +50,20 @@ Future<void> main() async {
 
   if(GetPlatform.isWeb) {
     await Firebase.initializeApp(options: const FirebaseOptions(
-      apiKey: "AIzaSyD0Z911mOoWCVkeGdjhIKwWFPRgvd6ZyAw",
-      authDomain: "stackmart-500c7.firebaseapp.com",
-      projectId: "stackmart-500c7",
-      storageBucket: "stackmart-500c7.firebasestorage.app",
-      messagingSenderId: "491987943015",
-      appId: "1:491987943015:web:d8bc7ab8dbc9991c8f1ec2",
+      apiKey: "AIzaSyB31049aqb6b2YrMUDY1pM35KT-rkg4xFo",
+      authDomain: "myanfood-337.firebaseapp.com",
+      projectId: "myanfood-337",
+      storageBucket: "myanfood-337.firebasestorage.app",
+      messagingSenderId: "823485232405",
+      appId: "1:823485232405:web:bd4c4a55cbf1f97cc5651c",
     ));
   }else if(GetPlatform.isAndroid) {
     await Firebase.initializeApp(
       options: const FirebaseOptions(
-        apiKey: 'AIzaSyCc3OCd5I2xSlnftZ4bFAbuCzMhgQHLivA',
-        appId: '1:491987943015:android:fe79b69339834d5c8f1ec2',
-        messagingSenderId: '491987943015',
-        projectId: 'stackmart-500c7',
+        apiKey: 'AIzaSyBYUv8qBx0Q1Jmr1k-foMU-d37VrbALJ04',
+        appId: '1:823485232405:android:2b89915516d02dcec5651c',
+        messagingSenderId: '823485232405',
+        projectId: 'myanfood-337',
       ),
     );
   } else {
