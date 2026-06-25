@@ -50,7 +50,7 @@ Future<void> main() async {
 
   if(GetPlatform.isWeb) {
     await Firebase.initializeApp(options: const FirebaseOptions(
-      apiKey: "AIzaSyBYUv8qBxOQlJmrlk-foMU-d37VrbALJO4",
+      apiKey: "AIzaSyB31049aqb6b2YrMUDY1pM35KT-rkg4xFo",
       authDomain: "myanfood-337.firebaseapp.com",
       projectId: "myanfood-337",
       storageBucket: "myanfood-337.firebasestorage.app",
