@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter analyze *)",
+      "Bash(powershell -Command \"Select-String -Path lib/util/messages.dart -Pattern 'you_placed_the_order_successfully|class Messages|Map<String|languages|LanguageModel' | Select-Object -First 10\")",
+      "Bash(powershell -Command \"Get-Content assets/language/en.json -Tail 3; Write-Output '---AR---'; Get-Content assets/language/ar.json -Tail 3; Write-Output '---BN---'; Get-Content assets/language/bn.json -Tail 3; Write-Output '---ES---'; Get-Content assets/language/es.json -Tail 3\")",
+      "Bash(python tool_add_pro_keys.py)",
+      "Bash(py tool_add_pro_keys.py)",
+      "PowerShell($cmds = 'python','python3','py','node'; foreach\\($c in $cmds\\){ $r = Get-Command $c -ErrorAction SilentlyContinue; if\\($r\\){ \"$c -> $\\($r.Source\\)\" } else { \"$c -> NOT FOUND\" } })",
+      "Bash(node tool_add_pro_keys.js)",
+      "Bash(node -e \"for\\(const f of ['en','ar','bn','es']\\){const j=JSON.parse\\(require\\('fs'\\).readFileSync\\('assets/language/'+f+'.json','utf8'\\)\\);console.log\\(f, '| you_saved:', JSON.stringify\\(j.you_saved\\), '| with_pro:', JSON.stringify\\(j.with_pro\\)\\);}\")",
+      "Bash(rm tool_add_pro_keys.js tool_add_pro_keys.py)",
+      "PowerShell(flutter analyze lib/features/pro lib/helper/get_di.dart lib/util/app_constants.dart)",
+      "PowerShell(flutter analyze lib/features/splash lib/features/home/screens/home_screen.dart lib/util/app_constants.dart)",
+      "PowerShell(flutter analyze lib/features/splash lib/features/pro lib/features/home/screens/home_screen.dart)",
+      "PowerShell(flutter analyze lib/features/pro lib/features/home/screens/home_screen.dart lib/util/app_constants.dart)",
+      "PowerShell(flutter analyze lib/features/auth/controllers/auth_controller.dart lib/features/pro lib/features/home/screens/home_screen.dart)",
+      "PowerShell(flutter analyze lib/features/cart/screens/cart_bundle_list_screen.dart)"
+    ]
+  }
+}
